@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@master
       - name: Run Prisma Cloud action
-        id: Prisma Cloud
+        id: Checkov
         uses: bridgecrewio/checkov-action@master
         with:
           directory: '.'
